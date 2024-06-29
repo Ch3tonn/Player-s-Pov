@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Honk&display=swap');
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--clr-black);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.encabezado{
+    font-size: 3rem;
+    font-family: "honk", system-ui;
+    background-color:indigo;
+    padding: 1.3rem;
+    box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, .60);
+}
+
+.titulo{
+    font-family: "bungee", sans-serif;
+    font-size: 2rem;
+    color:#FFD45B;
+    padding-top: 1rem;
+}
+
+.contenedor{
+    background-color:rgb(209, 209, 209);
+    border-radius: 2vmax;
+    padding: 1rem;
+}
+
+.imagen {
+    padding-inline: 1rem;
+    justify-content: center;
+    width: 100%;
+    max-width: 6rem;
+    transition: .2s;
+
+}
+
+.columnas-contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.imagen:hover{
+    transform: scale(1.1);
+    background-color: transparent;
+}
+
+.nombre-back{
+    position: absolute;
+    justify-content: left;
+    font-size: 2rem;
+    font-weight: 800;
+    z-index: -1;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+nav {
+    float:right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    background-color: #4B0082;
+    border-radius: 3rem;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px; 
+    color: #fff;
+    text-decoration:none;
+    font-family: "honk", system-ui;
+    font-size: 1.5rem;
+}
+
+nav ul li:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 1);
+}
+
+.tarjeta{
+    background-color: antiquewhite;
+    padding: 2rem;
+    margin: 3rem;
+    border-radius: 4vmax;
+}
